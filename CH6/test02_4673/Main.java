@@ -1,4 +1,4 @@
-package CH7.test02_4673;
+package CH6.test02_4673;
 
 
 public class Main {
