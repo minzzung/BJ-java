@@ -2,22 +2,22 @@ package CH8.test02_2292;
 
 //쉽지만 방법을 못찾은 문제
 import java.util.Scanner;
+ 
 public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int count=1;
-        int sum = 2;
-        if (a ==1){
-            System.out.println(1);
-        }
-        else{
-            while(sum<=a){
-                sum = sum +(6*count);
-                count++;
-            }
-            System.out.println(count);
-        }
-        
-    }
+	public static void main(String[] args) {
+ 
+		Scanner in = new Scanner(System.in);
+ 
+		int N = in.nextInt();
+ 
+		System.out.println(fibonacci(N));
+ 
+	}
+ 
+	// 피보나치 함수
+	static int fibonacci(int N) {
+		if (N == 0)	return 0;
+		if (N == 1)	return 1;
+		return fibonacci(N - 1) + fibonacci(N - 2);
+	}
 }
