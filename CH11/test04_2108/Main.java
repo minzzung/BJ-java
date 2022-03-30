@@ -1,6 +1,5 @@
 package CH11.test04_2108;
-
- 
+//풀이참고함 (좀 어려워)
 import java.util.Scanner;
  
 public class Main {
@@ -11,7 +10,6 @@ public class Main {
 
 		int[] arr = new int[8001];
 		
-
 		int sum = 0;
 		int max = Integer.MIN_VALUE;
 		int min = Integer.MAX_VALUE;
@@ -30,7 +28,6 @@ public class Main {
 				min = value;
 			}
 		}
-		
 
 		int count = 0;	
 		int max2 = 0; 

@@ -14,12 +14,14 @@ public class Main {
 		int N = Integer.parseInt(br.readLine());
 		ArrayList<Integer> list = new ArrayList<>();
 		
+        //입력
 		for(int i = 0; i < N; i++) {
 			list.add(Integer.parseInt(br.readLine()));
 		}
-
+        //sort
 		Collections.sort(list);
 		
+        //출력
 		for(int value : list) {
 			sb.append(value+"\n");
 		}

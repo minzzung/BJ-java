@@ -14,13 +14,13 @@ public class Main {
         
 		int N = Integer.parseInt(br.readLine());
 		int[] arr = new int[N];
-        
+        //입력
 		for(int i = 0; i < N; i++){
 			arr[i] = Integer.parseInt(br.readLine());
 		}
-        
+        //sort
 		Arrays.sort(arr);
-        
+        //출력
 		for(int i = 0; i < N; i++){
 			sb.append(arr[i]).append('\n');
 		}
